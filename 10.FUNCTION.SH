@@ -10,6 +10,8 @@ VALIDATE(){
         exit 1
     else 
         echo "Installing is success"      
+    fi
+}        
         
 
     if [ $ID -ne 0 ]
@@ -28,5 +30,5 @@ VALIDATE(){
 
     VALIDATE  
 
-}
+
 
