@@ -22,11 +22,11 @@ VALIDATE(){
         echo "You are root user"
     fi  # fi means reverse of if, indicating condition end  
 
-    yum install MySQL -y
+    yum install Mysql -y
 
     VALIDATE
       
-    yum install GIT -y
+    yum install git -y
 
     VALIDATE  
 
