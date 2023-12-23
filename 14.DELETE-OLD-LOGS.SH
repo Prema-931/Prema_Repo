@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_DIR="/tmp/shellscript-logs"
+SOURCE_DIR="/tmp/Prema_Repo-logs"
 
 R="\e[31m"
 G="\e[32m"
@@ -14,7 +14,7 @@ fi
 
 FILES_TO_DELETE=$(find $SOURCE_DIR -type f -mtime +14 -name "*.log")
 
-while IFS = read -r line
+while IFS= read -r line
 do
      echo "Deleting file : $line"
      rm-rf $line
