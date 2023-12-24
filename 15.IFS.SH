@@ -9,7 +9,7 @@ N="\e[0m"
 
 if [ ! -f $file ] #! denotes opposite
 then
-    echo -e  "$R Source directory: $file does not exists. $N"
+    echo -e  "$R Source directory: $file does not exists $N"
 fi
 
 while IFS=":" read -r username password user_id group_id user_fullname home_dir shell_path
