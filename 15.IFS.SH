@@ -1,0 +1,13 @@
+#!/bin/bash
+
+SOURCE_DIR="/tmp/Prema_Repo-logs"
+
+R="\e[31m"
+G="\e[32m"
+Y="\e[33m"
+N="\e[0m"
+
+if [ ! -d $SOURCE_DIR ] #! denotes opposite
+then
+    echo -e  "$R Source directory: $SOURCE_DIR does not exists. $N"
+fi
