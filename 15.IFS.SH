@@ -14,8 +14,8 @@ fi
 
 while IFS=":" read -r username password user_id group_id user_fullname home_dir shell_path
 do 
-    echo "username: $username"
-    echo "user ID: $user_id"
-    echo "User fullname: $user_fullname"
+    echo "username: $prema"
+    echo "user ID: $12345"
+    echo "User fullname: $pandu"
 
 done < $file    
